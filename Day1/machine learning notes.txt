@@ -1,0 +1,37 @@
+when I want to build a some detection system or software previously we are going to solve this problem using or logic (DSA logic to find the repeated pattern adn solve the problem ). Now when the other side of the also know now again they will start to change the question we solve . Now I know all of these problems can be solved using say one topic so here I introduce machine learning where it will predict the pattern adn will change code structure and solve on its own. 
+
+
+
+question)how is machine learning different from data mining ? 
+answer) machine learning is used to predict or our focus in on future we don't care about the past but data mining is used to find the pattern in the past we may use this pattern to apply machine learning for future . 
+
+
+
+dimensionality reduction we want to reduce the number of features in simple words so we are going to remove the features which are highly correlated to each other.
+
+Suppose I have feature A and feature B now these 2 are highly corrlated to each other and when the feature A is wiht target is high coorealted when compared to featreu B then we can remove feature B. or better way is to combine these 2 features in one . 
+
+when removing pick the one which have few number of missing values (OR) pick the one which makes more sense to human knowledge.
+
+
+Offline learning = Okay now I have developed a model and deployed it in production and the opponent started to change the question pattern now again I have to retrian the model offline (here I have retrian on whole dataset previously I taught when we have new data we have to train just ot reduce that but our model will be skewed in that way). 
+
+Online learning ( This learning is also done offline but we can think of it as incremental leanring)= when we have new data we have to train just ot reduce that but our model will be skewed in that way). AND this learning can be bad if the new data is bad or noise. Because we are going to learning from noise.
+
+-----------------------------------------------------------------------------------------------------
+
+1)  you are in interview you are given a same question called dynaminc programming question you know that all question that are going to asked in interview are going to dp instead you train  a robot adn put in front of interviewer. This is machine learning. Here the robot can answer the question. by the qeustion asked by interviewer if hte interview asks wrong qeustions then the robot iwll not perform well. this is fast learning.
+
+2) Now I make 2 robots maybe slow or fast robot. Now I want to see which robot is better in interview how do I know same like pratice we are going to see how well they are going to perform on the questions we have 
+
+----------------------------------------------------------------------------------------------------
+
+Learnig can be done in 2 ways :
+1) instant based learnig (one who is memorizing everything )
+2) model based learning(one who is trying to find the pattern )
+ 
+ Instant based learning is seeing what is nearby and making decisoin and it si not fast at the time of inference.
+
+
+
+ continue from page no 53 .
