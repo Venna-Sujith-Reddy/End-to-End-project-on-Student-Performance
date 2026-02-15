@@ -1,0 +1,40 @@
+always put the test set aside before you start training the model
+
+when we use random split it is going to split the data into test and train suppose I have built the model luckily I get more data then if I rerun the random split then my test is going to be different.  Some point in the training data will be in test adn ofcourse the test is going to get low error because we tried to mininze that in test. 
+
+
+
+Data Leakage happen when you peek at test set and change the model to get low error on test set. so you are indirectly using test data to tune the model. when you deploy this in industry it is not going to perform well.
+
+
+
+
+So I am going to split the data using hashing > with some threshold . Whenever we want to add new data we have add it to the end of the dataset which is very important. Because we need to have same id which was same as previous one.
+
+
+now you sampled the data we divided it into train and test set. Now do we have any bias in this random sampling ?
+
+
+we should sample in a way the sample is 
+
+
+
+
+**Both train and test set should be representation of the dataset we get because if it is not then it is similar to we are training the model on one dataset and testing on another.**
+
+
+
+Stratification and hashfuncition is the best solutin even we add new data we startify it into some catergory now this new data where it will get assigned to random if we use hashfunction because hashfunction is psedeo random .
+
+
+what about startification inside starates? we can do that 
+
+page 98 
+
+
+
+
+
+
+
+

@@ -16,7 +16,18 @@ when removing pick the one which have few number of missing values (OR) pick the
 
 Offline learning = Okay now I have developed a model and deployed it in production and the opponent started to change the question pattern now again I have to retrian the model offline (here I have retrian on whole dataset previously I taught when we have new data we have to train just ot reduce that but our model will be skewed in that way). 
 
+Offline learning we retrain on whole data.
+
+
+online learning we retrain on only new data.
+
+
 Online learning ( This learning is also done offline but we can think of it as incremental leanring)= when we have new data we have to train just ot reduce that but our model will be skewed in that way). AND this learning can be bad if the new data is bad or noise. Because we are going to learning from noise.
+
+onlin learning I can call this rapid change learning 
+offline learning is average on whole learning 
+out of core learning is traing a model on a dataset which is bigger than our ram. we process data in chunks. 
+
 
 -----------------------------------------------------------------------------------------------------
 

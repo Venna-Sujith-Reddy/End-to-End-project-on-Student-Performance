@@ -1,0 +1,15 @@
+I cannot use Machine Learning everywhere  
+1) do we have data ? with relevant features ? 
+2) also sometimes ml will fail to capture the pattern in the data . if ml is failing it doesn't mean there is no pattern here but when we feel there is a pattern here we should use ml . But we never know if there is a pattern or not we can only find that by training the model and checking the performance.
+
+Tha pattern should be complex if it is simple then we can use our knowledge to solve it. (This is zero shot learning)
+
+
+We use a ml model trained on different data which is similar to our production
+
+question) when can we use ml model that we developed ? 
+answer) when the cost of wrong prediction is low compared to cost of correct predictions average. 
+
+cost of correct is vague = we have to take average which is expected correct to wrong doing if it is greater we can use the ml model.
+
+latency and response is like a water slide in a resort. the line is latency and whole from start to end is response time. 

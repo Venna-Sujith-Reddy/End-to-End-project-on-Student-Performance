@@ -1,0 +1,9 @@
+The best model is the average of all y values at the x we want to predict . 
+
+    problems here : 
+            1)  if the values are continuous we can't use this method.
+            2) what if we have noise or outlier then we skew the prediction.
+            3) this is instance based learning.
+
+
+
